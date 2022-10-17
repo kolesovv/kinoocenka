@@ -5,7 +5,13 @@
 
   <groupId>com.kinoocenka</groupId>
   <artifactId>kinoocenka</artifactId>
+  <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
+  <modules>
+    <module>movie-catalog</module>
+    <module>movie-info</module>
+    <module>ratings-data</module>
+  </modules>
   <name>kinoocenka</name>
   <description>kinoocenka</description>
   <properties>
