@@ -11,6 +11,7 @@
     <module>movie-catalog</module>
     <module>movie-info</module>
     <module>ratings-data</module>
+    <module>discovery-server</module>
   </modules>
   <name>kinoocenka</name>
   <description>kinoocenka</description>
