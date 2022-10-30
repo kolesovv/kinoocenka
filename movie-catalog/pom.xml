@@ -16,6 +16,7 @@
     <maven.compiler.target>17</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spring-cloud.version>3.1.4</spring-cloud.version>
+    <spring-cloud-hystrix.version>2.2.10.RELEASE</spring-cloud-hystrix.version>
   </properties>
 
   <dependencies>
@@ -31,6 +32,16 @@
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
       <version>${spring-cloud.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+      <version>${spring-cloud-hystrix.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+      <version>${spring-cloud-hystrix.version}</version>
     </dependency>
   </dependencies>
 
