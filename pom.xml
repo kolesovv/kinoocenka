@@ -12,6 +12,7 @@
     <module>movie-info</module>
     <module>ratings-data</module>
     <module>discovery-server</module>
+    <module>configuration-server</module>
   </modules>
   <name>kinoocenka</name>
   <description>kinoocenka</description>
@@ -20,6 +21,7 @@
     <spring.boot.dependenices.version>2.7.4</spring.boot.dependenices.version>
     <sping.boot.maven.plugin.version>2.7.4</sping.boot.maven.plugin.version>
     <lombok.version>1.18.24</lombok.version>
+    <spring-cloud.version>3.1.4</spring-cloud.version>
   </properties>
 
   <dependencyManagement>

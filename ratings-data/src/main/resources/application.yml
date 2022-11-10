@@ -1,6 +1,7 @@
 spring:
   application:
     name: ratings-data
-    
-server:
-  port: 8083
+  cloud:
+    config:
+      uri: http://config-server:8888
+      fail-fast: true
